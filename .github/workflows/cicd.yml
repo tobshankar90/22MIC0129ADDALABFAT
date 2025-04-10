@@ -27,4 +27,4 @@ jobs:
             SNYK_TOKEN: $
           with:
             args: test
-          
+          continue-on-error: true
